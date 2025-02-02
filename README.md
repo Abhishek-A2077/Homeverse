@@ -16,4 +16,5 @@ HomeVerse is a modern real estate website designed to help users explore propert
 🔗 **Visit HomeVerse:** [HomeVerse Website](https://abhishek-a2077.github.io/Homeverse/)  
 
 ## Preview  
-![HomeVerse Preview](homeverse%20preview.jpg)  
+![HomeVerse Preview](assets/images/homeverse%20preview.jpg)
+
