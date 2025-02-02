@@ -1,4 +1,4 @@
-# HomeVerse 🏡  
+# HomeVerse
 
 HomeVerse is a modern real estate website designed to help users explore properties, view listings, and contact realtors. Built using HTML, CSS, and JavaScript, it provides a seamless and interactive browsing experience.  
 
