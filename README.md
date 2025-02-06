@@ -5,7 +5,7 @@ HomeVerse is a modern real estate website designed to help users explore propert
 ## Features  
 - 🏠 **Browse Properties** – View detailed property listings with images and descriptions.   
 - 📞 **Contact Realtors** – Easily connect with property owners or agents.  
-- 📱 **Responsive Design** – Optimized for mobile and desktop viewing.    duu
+- 📱 **Responsive Design** – Optimized for mobile and desktop viewing.    
 
 ## Technologies Used  
 - **HTML** – Structuring the webpage  
