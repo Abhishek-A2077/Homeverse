@@ -18,3 +18,26 @@ HomeVerse is a cutting-edge real estate platform designed to streamline property
 ## Preview  
 ![HomeVerse Preview](assets/images/homeverse%20preview.jpg)
 
+# 🚀 Instructions to Run Docker, Kubernetes, and the Cloud Native Monitoring Dashboard (Made with Prometheus and Grafana)
+
+```bash
+# 🐳 Docker Login
+docker login
+
+# ☸️ Kubernetes Verification
+kubectl get nodes                                  # ✅ verify k8s
+kubectl get deployments                            # ✅ verify k8s
+kubectl get pods --all-namespaces                  # ✅ verify k8s
+
+# 📦 Run Kubernetes Service
+kubectl port-forward svc/homeverse-service 8081:80 # 🚀 to run kubernetes
+
+# 🔐 Get Grafana Password (username: admin)
+kubectl get secret grafana -o jsonpath="{.data.admin-password}" | base64 --decode; echo
+
+# 📊 Run Grafana
+kubectl port-forward svc/grafana 3001:80           # 📈 to run grafana
+
+# 🧱 Run Docker Container
+docker run -p 8081:80 homeverse-app:v1             # 🐳 to run docker containers
+
